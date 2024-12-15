@@ -1,0 +1,363 @@
+.container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.header, .footer {
+    background-color: #dee9f5;
+    width: 100%;
+    font-size: 20px;
+}
+
+.header {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+
+.footer {
+    padding-bottom: 25px;
+    padding-top: 10px;
+    margin-top: auto;
+}
+
+.header h2, .footer h2 {
+    color: #5890cb;
+    text-decoration: underline;
+    font-family: 'Bell MT', serif;
+    max-width: 0px 30px;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.header p, .footer p {
+    color: #29394d;
+    font-family: 'Century Gothic', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
+}
+
+.header p {
+    margin-top: 8px;
+    text-align: justify;
+}
+
+.colonne_gauche {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #588fcb;
+    padding: 50px;
+}
+
+.photo_nom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.formation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.autoformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.savoirs_etre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.colonne_gauche h1 {
+    color: white;
+    font-family: 'Bell MT', serif;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.colonne_gauche ul {
+    margin: 0;
+    padding: 0;
+}
+
+.colonne_gauche h2 {
+    color: #1c2c63;
+    font-family: 'Bell MT', serif;
+    font-size: 32px;
+}
+
+.colonne_gauche a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.colonne_gauche a:hover {
+    color: #1c2c63;
+}
+
+.colonne_gauche li {
+    color: white;
+    list-style: none;
+    font-family: 'Century Gothic', sans-serif;
+    text-align: center;
+    font-size: 22px;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+.formation li:nth-child(odd) {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.formation li:nth-child(even) {
+    font-weight:lighter;
+    font-style: oblique;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.autoformation li {
+    margin-bottom: 10px;
+}
+
+.autoformation li:nth-child(4) {
+    font-weight:lighter;
+    font-style: oblique;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.savoirs_etre li {
+    margin-bottom: 10px;
+}
+
+.colonne_gauche img {
+    width: 170px;
+    margin: auto;
+}
+
+.colonne_droite {
+    display: flex;
+    flex-direction: column;
+}
+
+.colonne_droite ul {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.colonne_droite li {
+    color: #29394d;
+    font-family: 'Century Gothic', sans-serif;
+    margin-bottom: 10px;
+    font-family: 20px;
+}
+
+.colonne_droite h2 {
+    color: #5890cb;
+    text-decoration: underline;
+    font-family: 'Bell MT', serif;
+    font-size: 32px;
+    padding: 10px 30px 0px 30px;
+    margin-bottom: 0;
+}
+
+.colonne_droite h3, .colonne_droite h4 {
+    color: #29394d;
+    font-family: 'Century Gothic', sans-serif;
+    margin: 0;
+}
+
+.colonne_droite h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.middle {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px 30px;
+}
+
+.experiences_pro ul, .langue_parlee ul {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.experiences_pro {
+    margin-bottom: 25px;
+}
+
+
+#titre_1 {
+    margin-left: 10px;
+}
+
+#liste_1 {
+    margin-top: 10px;
+    grid-row: 2;
+}
+
+#liste_1_b {
+    margin-top: 10px;
+    grid-row: 2;
+    grid-column: 2;
+}
+
+#titre_2 {
+    grid-row: 3;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#liste_2 {
+    margin-top: 10px;
+    grid-row: 4;
+}
+
+#titre_3 {
+    grid-row: 3;
+    grid-column: 2;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+#liste_3 {
+    margin-top: 10px;
+    grid-row: 4;
+    grid-column: 2;
+    margin-left: 1px;
+}
+
+.emploi_date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 0px 30px;
+}
+
+.emploi_date h4 {
+    font-size: 16px;
+    padding-top: 3px;
+}
+
+.separation {
+    width: 130px;
+    height: 2px;
+    background-color: white;
+    align-self: center;
+}
+
+span {
+    font-style: italic;
+}
+
+@media (max-width: 1000px) {
+    .separation {
+        width: 30%;
+        margin-bottom: 30px;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .colonne_gauche, .colonne_droite {
+        margin: 15px;
+    }
+
+    .photo_nom, .contact, .formation, .autoformation, .savoirs_etre {
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .header h2, .footer h2, .colonne_gauche h2, .colonne_droite h2 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .colonne_droite h3 {
+        margin: 5px 0 5px 0px;
+        font-size: 20px;
+    }
+
+    .colonne_droite h3:nth-child(1) {
+        margin: 25px 0px 0px 0px;
+        font-size: 20px;
+    }
+
+    .colonne_droite h4 {
+        margin: 5px 0;
+    }
+
+    .experiences_pro ul {
+        margin: 10px 0px 25px 0px;
+        padding: 0px 40px;
+        list-style-type: disc;
+    }
+
+    .colonne_droite li, .colonne_gauche li {
+        font-size: 20px;
+        margin-bottom: 15px;
+        padding: 0;
+    }
+
+    .colonne_gauche img {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .emploi_date {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 10px;
+    }
+
+    .separation {
+        width: 40%;
+        height: 1px;
+    }
+
+    #liste_2, #liste_3, #liste_1, #liste_1_b {
+        margin: 15px 0px 0px 10px;
+        padding: 0;
+    }
+
+    #titre_2, #titre_3, #titre_1 {
+        margin: 25px 0px 0px 10px;
+        padding: 0;
+        align-self: center;
+    }
+
+    .middle {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 30px 0px 30px;
+    }
+}
+
+
