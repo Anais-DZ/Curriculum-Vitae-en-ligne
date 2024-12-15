@@ -282,9 +282,17 @@ span {
         font-size: 18px;
     }
 
+    h1 {
+        margin: 15px 0;
+    }
+
+    .photo_nom {
+        margin: 0;
+    }
+
     .separation {
         width: 30%;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .container {
@@ -292,7 +300,7 @@ span {
     }
 
     .colonne_gauche, .colonne_droite {
-        margin: 15px;
+        margin: 5px;
     }
 
     .photo_nom, .contact, .formation, .autoformation, .savoirs_etre {
@@ -303,7 +311,8 @@ span {
     .header h2, .footer h2, .colonne_gauche h2, .colonne_droite h2 {
         text-align: center;
         margin-bottom: 25px;
-        font-size: 26px;
+        font-size: 24px;
+        padding: 0 30px;
     }
 
     .colonne_droite h3 {
@@ -362,7 +371,7 @@ span {
     .middle {
         display: flex;
         flex-direction: column;
-        padding: 20px 30px 0px 30px;
+        padding: 0px 30px;
     }
 
     .footer li {
