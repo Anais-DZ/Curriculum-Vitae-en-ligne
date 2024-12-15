@@ -310,9 +310,9 @@ span {
 
     .header h2, .footer h2, .colonne_gauche h2, .colonne_droite h2 {
         text-align: center;
-        margin-bottom: 25px;
         font-size: 24px;
         padding: 0 30px;
+        margin: 10px 0;
     }
 
     .colonne_droite h3 {
@@ -330,14 +330,14 @@ span {
     }
 
     .experiences_pro ul {
-        margin: 10px 0px 25px 0px;
+        margin: 10px 0px 20px 0px;
         padding: 0px 40px;
         list-style-type: disc;
     }
 
     .colonne_droite li, .colonne_gauche li {
         font-size: 18px;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         padding: 0;
     }
 
@@ -350,11 +350,6 @@ span {
         display: flex;
         flex-direction: column;
         margin: 0px 10px;
-    }
-
-    .separation {
-        width: 40%;
-        height: 1px;
     }
 
     #liste_2, #liste_3, #liste_1, #liste_1_b {
@@ -371,7 +366,7 @@ span {
     .middle {
         display: flex;
         flex-direction: column;
-        padding: 0px 30px;
+        padding: 0px 30px 30px 30px;
     }
 
     .footer li {
