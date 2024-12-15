@@ -286,6 +286,10 @@ span {
         margin: 15px 0;
     }
 
+    .footer {
+        margin-top: 15px;
+    }
+
     .photo_nom {
         margin: 0;
     }
