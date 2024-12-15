@@ -277,6 +277,11 @@ span {
 }
 
 @media (max-width: 1000px) {
+
+    p {
+        font-size: 18px;
+    }
+
     .separation {
         width: 30%;
         margin-bottom: 30px;
@@ -298,11 +303,12 @@ span {
     .header h2, .footer h2, .colonne_gauche h2, .colonne_droite h2 {
         text-align: center;
         margin-bottom: 25px;
+        font-size: 26px;
     }
 
     .colonne_droite h3 {
         margin: 5px 0 5px 0px;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .colonne_droite h3:nth-child(1) {
@@ -321,7 +327,7 @@ span {
     }
 
     .colonne_droite li, .colonne_gauche li {
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 15px;
         padding: 0;
     }
@@ -357,6 +363,10 @@ span {
         display: flex;
         flex-direction: column;
         padding: 20px 30px 0px 30px;
+    }
+
+    .footer li {
+        list-style-type: none;
     }
 }
 
