@@ -29,18 +29,16 @@
     margin-bottom: 25px;
 }
 
-.header p, .footer p {
+.header p {
     color: #29394d;
     font-family: 'Century Gothic', sans-serif;
     padding-left: 30px;
     padding-right: 30px;
     margin: 0;
-}
-
-.header p {
     margin-top: 8px;
     text-align: justify;
 }
+
 
 .colonne_gauche {
     display: flex;
@@ -201,7 +199,7 @@
     padding: 20px 30px;
 }
 
-.experiences_pro ul, .langue_parlee ul {
+.experiences_pro ul, .langue_parlee ul, .footer ul {
     margin-bottom: 10px;
     list-style: none;
 }
@@ -278,8 +276,13 @@ span {
 
 @media (max-width: 1000px) {
 
-    p {
+    body {
+        text-align: center;
+    }
+
+    .header p {
         font-size: 18px;
+        text-align: center;
     }
 
     h1 {
@@ -288,6 +291,10 @@ span {
 
     .footer {
         margin-top: 15px;
+    }
+
+    .footer ul {
+        padding: 0;
     }
 
     .photo_nom {
@@ -336,7 +343,6 @@ span {
     .experiences_pro ul {
         margin: 10px 0px 20px 0px;
         padding: 0px 40px;
-        list-style-type: disc;
     }
 
     .colonne_droite li, .colonne_gauche li {
@@ -359,6 +365,7 @@ span {
     #liste_2, #liste_3, #liste_1, #liste_1_b {
         margin: 15px 0px 0px 10px;
         padding: 0;
+        list-style-type: none;
     }
 
     #titre_2, #titre_3, #titre_1 {
@@ -367,15 +374,16 @@ span {
         align-self: center;
     }
 
+    .langue_parlee ul {
+        padding: 0;
+    }
+
     .middle {
         display: flex;
         flex-direction: column;
         padding: 0px 30px 30px 30px;
     }
 
-    .footer li {
-        list-style-type: none;
-    }
 }
 
 
