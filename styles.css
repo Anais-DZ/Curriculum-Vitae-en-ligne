@@ -363,7 +363,7 @@ span {
     }
 
     #liste_2, #liste_3, #liste_1, #liste_1_b {
-        margin: 15px 0px 0px 10px;
+        margin: 15px 0;
         padding: 0;
         list-style-type: none;
     }
