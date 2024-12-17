@@ -29,7 +29,7 @@
 <br/>
 
 **Comment l’installer ?**
-<br/>Il n’y a pas d’installation nécessaire : le CV est accessible directement en ligne. Si besoin, le code source peut être partagé pour une consultation ou une amélioration.
+<br/>Il n’y a pas d’installation nécessaire : le CV est accessible directement en ligne à cette adresse: https://cv-adiez.vercel.app
 <br/>
 
 **Pourquoi ce projet ?**
