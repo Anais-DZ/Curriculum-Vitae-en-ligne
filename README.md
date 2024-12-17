@@ -1,10 +1,10 @@
 # Mon Curriculum Vitae
 
 **Qui a fait ce projet ?**
-<br/>Ce projet, c’est 100 % moi, Anaïs. En pleine reconversion professionnelle vers le développement web, j’ai conçu et développé ce CV interactif en HTML et CSS pour montrer mes compétences et mon sérieux dans ce nouveau domaine.
+<br/>Ce projet, c’est moi, Anaïs. En pleine reconversion professionnelle vers le développement web, j’ai conçu et développé ce CV en HTML et CSS pour montrer mes compétences et mon sérieux dans ce nouveau domaine.
 <br/>
 
-**Qu’est-ce que c’est ?**
+**Qu’est-ce que ce projet ?**
 <br/>C’est un CV en ligne, accessible depuis n’importe quel appareil, qui met en avant mon parcours et mes compétences tout en offrant aux recruteurs une manière simple de me contacter via des liens interactifs. Ce n’est pas juste un CV, c’est aussi une démonstration de mes capacités techniques.
 <br/>
 
@@ -13,7 +13,7 @@
 <br/>
 
 **Dans quel contexte ?**
-<br/>J’étais dans une phase intense d’apprentissage en HTML/CSS. Ce projet marque une étape importante dans ma reconversion et formation, montrant que je peux créer des projets concrets et professionnels.
+<br/>J’étais dans une phase d’apprentissage en HTML/CSS. Ce projet marque une étape importante dans ma reconversion et formation, (me) montrant que je peux créer des projets concrets et professionnels.
 <br/>
 
 **A quoi cela ressemble ?**
