@@ -1,7 +1,7 @@
 # Mon Curriculum Vitae
 
 **Qui a fait ce projet ?**
-<br/>Ce projet, c’est moi, Anaïs. En pleine reconversion professionnelle vers le développement web, j’ai conçu et développé ce CV en HTML et CSS pour montrer mes compétences et mon sérieux dans ce nouveau domaine.
+<br/>Ce projet, c’est moi, Anaïs. En reconversion professionnelle dans le développement web & web mobile, j’ai conçu et développé ce CV en HTML et CSS pour montrer mes compétences et mon sérieux dans ce nouveau domaine.
 <br/>
 
 **Qu’est-ce que ce projet ?**
