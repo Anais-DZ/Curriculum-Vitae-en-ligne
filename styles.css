@@ -45,7 +45,7 @@
     flex-direction: column;
     justify-content: space-around;
     background-color: #588fcb;
-    padding: 50px;
+    padding: 35px;
 }
 
 .photo_nom {
@@ -159,7 +159,8 @@
 }
 
 .colonne_gauche img {
-    width: 170px;
+    width: 230px;
+    height: auto;
     margin: auto;
 }
 
