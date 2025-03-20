@@ -258,6 +258,18 @@
     margin-left: 1px;
 }
 
+#framework {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 22px;
+    font-style: oblique;
+
+    ul {
+    padding: 0 !important;
+    margin-top: 20px;
+    }
+}
+
 .emploi_date {
     display: flex;
     flex-direction: row;
