@@ -224,7 +224,7 @@
     }
 
     p {
-        margin : 10px 0;
+        margin: 10px 0;
     }
 }
 
@@ -393,9 +393,16 @@ span {
         margin: 5px 0;
     }
 
-    .experiences_pro ul {
-        margin: 10px 0px 20px 0px;
-        padding: 0px 40px;
+    .experiences_pro {
+        ul {
+            margin: 10px 0px 20px 0px;
+            padding: 0px 40px;
+            list-style: none;
+        }
+
+        li {
+            margin-bottom: 15px !important;
+        }
     }
 
     .colonne_droite li,
