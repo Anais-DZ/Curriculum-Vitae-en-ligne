@@ -3,7 +3,8 @@
     grid-template-columns: 25% 75%;
 }
 
-.header, .footer {
+.header,
+.footer {
     background-color: #dee9f5;
     width: 100%;
     font-size: 20px;
@@ -20,7 +21,8 @@
     margin-top: auto;
 }
 
-.header h2, .footer h2 {
+.header h2,
+.footer h2 {
     color: #5890cb;
     text-decoration: underline;
     font-family: 'Bell MT', serif;
@@ -123,7 +125,8 @@
     padding: 10px 20px;
 }
 
-.contact li:nth-child(5), .contact li:nth-child(6) {
+.contact li:nth-child(5),
+.contact li:nth-child(6) {
     padding: 15px 30px;
 }
 
@@ -137,7 +140,7 @@
 }
 
 .formation li:nth-child(even) {
-    font-weight:lighter;
+    font-weight: lighter;
     font-style: oblique;
     font-size: 16px;
     margin-bottom: 25px;
@@ -148,7 +151,7 @@
 }
 
 .autoformation li:nth-child(4) {
-    font-weight:lighter;
+    font-weight: lighter;
     font-style: oblique;
     font-size: 16px;
     margin-top: 10px;
@@ -190,7 +193,8 @@
     margin-bottom: 0;
 }
 
-.colonne_droite h3, .colonne_droite h4 {
+.colonne_droite h3,
+.colonne_droite h4 {
     color: #29394d;
     font-family: 'Century Gothic', sans-serif;
     margin: 0;
@@ -208,9 +212,28 @@
     padding: 20px 30px;
 }
 
-.experiences_pro ul, .langue_parlee ul, .footer ul {
+.langue_parlee ul,
+.footer ul {
     margin-bottom: 10px;
     list-style: none;
+}
+
+.langue_parlee {
+    li {
+        margin-top: 10px;
+    }
+
+    p {
+        margin : 10px 0;
+    }
+}
+
+.footer li {
+    margin-top: 10px;
+}
+
+.experiences_pro ul {
+    margin-bottom: 10px;
 }
 
 .experiences_pro {
@@ -265,8 +288,8 @@
     font-style: oblique;
 
     ul {
-    padding: 0 !important;
-    margin-top: 20px;
+        padding: 0 !important;
+        margin-top: 20px;
     }
 }
 
@@ -274,6 +297,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin: 10px;
     margin-top: 30px;
     padding: 0px 30px;
@@ -331,16 +355,24 @@ span {
         grid-template-columns: 1fr;
     }
 
-    .colonne_gauche, .colonne_droite {
+    .colonne_gauche,
+    .colonne_droite {
         margin: 5px;
     }
 
-    .photo_nom, .contact, .formation, .autoformation, .savoirs_etre {
+    .photo_nom,
+    .contact,
+    .formation,
+    .autoformation,
+    .savoirs_etre {
         align-items: center;
         margin-bottom: 20px;
     }
 
-    .header h2, .footer h2, .colonne_gauche h2, .colonne_droite h2 {
+    .header h2,
+    .footer h2,
+    .colonne_gauche h2,
+    .colonne_droite h2 {
         text-align: center;
         font-size: 24px;
         padding: 0 30px;
@@ -366,7 +398,8 @@ span {
         padding: 0px 40px;
     }
 
-    .colonne_droite li, .colonne_gauche li {
+    .colonne_droite li,
+    .colonne_gauche li {
         font-size: 18px;
         margin-bottom: 10px;
         padding: 0;
@@ -383,13 +416,18 @@ span {
         margin: 0px 10px;
     }
 
-    #liste_2, #liste_3, #liste_1, #liste_1_b {
+    #liste_2,
+    #liste_3,
+    #liste_1,
+    #liste_1_b {
         margin: 15px 0;
         padding: 0;
         list-style-type: none;
     }
 
-    #titre_2, #titre_3, #titre_1 {
+    #titre_2,
+    #titre_3,
+    #titre_1 {
         margin: 25px 0 5px 0;
         padding: 0;
         align-self: center;
@@ -405,13 +443,17 @@ span {
         padding: 0px 30px 30px 30px;
     }
 
-    .contact li:nth-child(5), .contact li:nth-child(6) {
+    .contact li:nth-child(5),
+    .contact li:nth-child(6) {
         padding: 10px 20px;
     }
-    
+
     .contact li:nth-child(4) {
         padding: 15px 20px 0 20px;
     }
+
+    #fram {
+        font-size: 18px !important;
+        margin-top: 25px !important;
+    }
 }
-
-
