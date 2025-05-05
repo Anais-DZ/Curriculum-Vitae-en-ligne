@@ -7,7 +7,7 @@
 .footer {
     background-color: #dee9f5;
     width: 100%;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .header {
@@ -16,9 +16,10 @@
 }
 
 .footer {
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     padding-top: 10px;
-    margin-top: auto;
+    margin-top: 10px;
+    
 }
 
 .header h2,
@@ -27,8 +28,9 @@
     text-decoration: underline;
     font-family: 'Bell MT', serif;
     max-width: 0px 30px;
-    font-size: 32px;
-    margin-bottom: 25px;
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .header p {
@@ -88,7 +90,7 @@
 .colonne_gauche h1 {
     color: white;
     font-family: 'Bell MT', serif;
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 15px;
 }
 
@@ -100,7 +102,8 @@
 .colonne_gauche h2 {
     color: #1c2c63;
     font-family: 'Bell MT', serif;
-    font-size: 32px;
+    font-size: 22px;
+    margin: 10px 0 10px;
 }
 
 .colonne_gauche a {
@@ -118,11 +121,11 @@
     list-style: none;
     font-family: 'Century Gothic', sans-serif;
     text-align: center;
-    font-size: 22px;
+    font-size: 16px;
 }
 
 .contact li {
-    padding: 10px 20px;
+    padding: 5px 20px;
 }
 
 .contact li:nth-child(5),
@@ -142,7 +145,7 @@
 .formation li:nth-child(even) {
     font-weight: lighter;
     font-style: oblique;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 25px;
 }
 
@@ -153,7 +156,7 @@
 .autoformation li:nth-child(4) {
     font-weight: lighter;
     font-style: oblique;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 10px;
 }
 
@@ -174,21 +177,21 @@
 
 .colonne_droite ul {
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .colonne_droite li {
     color: #29394d;
     font-family: 'Century Gothic', sans-serif;
     margin-bottom: 10px;
-    font-family: 20px;
+    font-family: 16px;
 }
 
 .colonne_droite h2 {
     color: #5890cb;
     text-decoration: underline;
     font-family: 'Bell MT', serif;
-    font-size: 32px;
+    font-size: 24px;
     padding: 10px 30px 0px 30px;
     margin-bottom: 0;
 }
@@ -201,7 +204,7 @@
 }
 
 .colonne_droite h3 {
-    font-size: 24px;
+    font-size:18px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -219,6 +222,10 @@
 }
 
 .langue_parlee {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
     li {
         margin-top: 10px;
     }
@@ -298,8 +305,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 10px;
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
     padding: 0px 30px;
 }
 
@@ -319,6 +326,26 @@ span {
     font-style: italic;
 }
 
+#qrcode {
+    width: 130px;
+    height: auto;
+}
+
+#scann {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    
+    p{
+        margin: 0;
+        font-family: 'Century Gothic';
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
+
 @media (max-width: 1000px) {
 
     body {
@@ -326,7 +353,7 @@ span {
     }
 
     .header p {
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
     }
 
@@ -381,12 +408,12 @@ span {
 
     .colonne_droite h3 {
         margin: 5px 0 5px 0px;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .colonne_droite h3:nth-child(1) {
         margin: 25px 0px 0px 0px;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .colonne_droite h4 {
@@ -407,7 +434,7 @@ span {
 
     .colonne_droite li,
     .colonne_gauche li {
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 10px;
         padding: 0;
     }
@@ -444,6 +471,10 @@ span {
         padding: 0;
     }
 
+    .langue_parlee {
+        flex-direction: column;
+    }
+
     .middle {
         display: flex;
         flex-direction: column;
@@ -460,7 +491,17 @@ span {
     }
 
     #fram {
-        font-size: 18px !important;
+        font-size: 16px !important;
         margin-top: 25px !important;
+    }
+
+    #qrcode {
+        width: 130px;
+        height: auto;
+    }
+    
+    #scann {
+        margin: 30px 0 15px;
+  
     }
 }
