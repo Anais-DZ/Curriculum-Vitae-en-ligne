@@ -63,35 +63,35 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .formation {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .autoformation {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .savoirs_etre {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .colonne_gauche h1 {
     color: white;
     font-family: 'Bell MT', serif;
     font-size: 28px;
-    margin-top: 15px;
+    margin: 15px 0;
 }
 
 .colonne_gauche ul {
@@ -128,13 +128,8 @@
     padding: 5px 20px;
 }
 
-.contact li:nth-child(5),
-.contact li:nth-child(6) {
-    padding: 15px 30px;
-}
-
 .contact li:nth-child(4) {
-    padding: 35px 30px 0 30px;
+    padding: 25px 30px 5px 30px;
 }
 
 .formation li:nth-child(odd) {
@@ -150,14 +145,27 @@
 }
 
 .autoformation li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
-.autoformation li:nth-child(4) {
+.autoformation li:nth-child(2) {
     font-weight: lighter;
     font-style: oblique;
     font-size: 14px;
-    margin-top: 10px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.autoformation li:nth-child(6) {
+    font-weight: lighter;
+    font-style: oblique;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#reactGit {
+    margin-bottom: 5px;
 }
 
 .savoirs_etre li {
@@ -355,6 +363,10 @@ span {
     color: rgb(90, 167, 255)
 }
 
+.lienReseau {
+    padding-top: 5px !important;
+}
+
 
 @media (max-width: 1000px) {
 
@@ -370,6 +382,11 @@ span {
     h1 {
         margin: 15px 0;
     }
+
+    #reactGit {
+        margin-bottom: 0;
+    }
+
 
     .footer {
         margin-top: 15px;
@@ -403,7 +420,7 @@ span {
     .autoformation,
     .savoirs_etre {
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .header h2,
@@ -445,7 +462,7 @@ span {
     .colonne_droite li,
     .colonne_gauche li {
         font-size: 16px;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         padding: 0;
     }
 
@@ -491,14 +508,10 @@ span {
         padding: 0px 30px 30px 30px;
     }
 
-    .contact li:nth-child(5),
-    .contact li:nth-child(6) {
-        padding: 10px 20px;
+    .contact li {
+        padding: 5px !important;
     }
 
-    .contact li:nth-child(4) {
-        padding: 15px 20px 0 20px;
-    }
 
     #fram {
         font-size: 16px !important;
